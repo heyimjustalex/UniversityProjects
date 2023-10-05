@@ -1,0 +1,12 @@
+Dockerfile
+logs/*
+.git
+.mypy_cache/
+
+
+
+
+
+
+
+

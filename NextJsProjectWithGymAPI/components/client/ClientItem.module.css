@@ -1,0 +1,21 @@
+/* WorkoutItem.module.css */
+.container {
+  border: 1px solid #ccc;
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+  height: 200px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h2 {
+  margin-bottom: 8px;
+}
+
+.p {
+  padding-top: 10px;
+}

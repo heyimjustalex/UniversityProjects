@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nextapp
+  labels:
+    app: nextapp
+spec:
+  selector:
+    matchLabels:
+      app: nextapp
+      tier: frontend
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: nextapp
+        tier: frontend
+    spec:
+      containers:
+        - image: gcr.io/plasma-galaxy-412510/nextapp:1
+          name: nextapp
+          ports:
+            - containerPort: 3000
+              name: nextapp

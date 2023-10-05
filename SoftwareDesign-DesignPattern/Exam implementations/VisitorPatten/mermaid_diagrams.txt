@@ -1,0 +1,145 @@
+1)
+classDiagram
+    Document --> IElement
+    IElement <|-- TitleElement
+    IElement <|-- ParagraphElement
+    IElement <|-- ImageElement
+
+
+    Document : +String name
+    Document : +List<IElement> Elements
+    IElement : +Print()
+
+    class TitleElement{
+        +String Path
+        +String Caption
+        +Int Width
+        +Int Height
+        +Print() 
+    }
+
+        class ParagraphElement{
+        +String Content
+        +Print() 
+    }
+
+        class ImageElement{
+        +String Path
+        +String Caption
+        +Int Width
+        +Int Height
+        +Print() 
+    }
+
+    class Document{
+        +AddElement()
+        +PrintFormatted()
+    }
+
+
+2)
+classDiagram
+    Document --> IElement
+    Document  --> IVisitor
+    IVisitor <|-- ExportVisitor    
+    IVisitor <|-- MetadataVisitor
+    IElement <|-- TitleElement
+    IElement <|-- ParagraphElement
+    IElement <|-- ImageElement
+
+
+    Document : +String name
+    Document : +List<IElement> Elements
+    IElement : +Print()
+    IVisitor : +Visit(TitleElement)
+    IVisitor : +Visit(ParagraphElement)
+    IVisitor : +Visit(ImageElement)
+    ExportVisitor : +Visit(TitleElement)
+    ExportVisitor : +Visit(ParagraphElement)
+    ExportVisitor : +Visit(ImageElement)
+    MetadataVisitor : +Visit(TitleElement)
+    MetadataVisitor : +Visit(ParagraphElement)
+    MetadataVisitor : +Visit(ImageElement)
+
+    class TitleElement{
+        +String Path
+        +String Caption
+        +Int Width
+        +Int Height
+        +Print() 
+    }
+
+        class ParagraphElement{
+        +String Content
+        +Print() 
+    }
+
+        class ImageElement{
+        +String Path
+        +String Caption
+        +Int Width
+        +Int Height
+        +Print() 
+    }
+
+    class Document{
+        +AddElement()
+        +PrintFormatted()
+    }
+
+
+
+3)
+classDiagram
+    Document --> IElement
+    Document  --> IVisitor
+    IVisitor <|-- ExportVisitor    
+    IVisitor <|-- MetadataVisitor
+    IElement <|-- TitleElement
+    IElement <|-- ParagraphElement
+    IElement <|-- ImageElement
+    IAcceptVisitor <|-- IElement
+
+    Document : +String name
+    Document : +List<IElement> Elements
+    IElement : +Print()
+    IVisitor : +Visit(TitleElement)
+    IVisitor : +Visit(ParagraphElement)
+    IVisitor : +Visit(ImageElement)
+    ExportVisitor : +Visit(TitleElement)
+    ExportVisitor : +Visit(ParagraphElement)
+    ExportVisitor : +Visit(ImageElement)
+    MetadataVisitor : +Visit(TitleElement)
+    MetadataVisitor : +Visit(ParagraphElement)
+    MetadataVisitor : +Visit(ImageElement)
+    IAcceptVisitor : +Accept(IVisitor)
+
+    class TitleElement{
+        +String Path
+        +String Caption
+        +Int Width
+        +Int Height
+        +Print() 
+        +Accept(IVisitor)
+    }
+
+        class ParagraphElement{
+        +String Content
+        +Print() 
+        +Accept(IVisitor)
+    }
+
+        class ImageElement{
+        +String Path
+        +String Caption
+        +Int Width
+        +Int Height
+        +Print() 
+        +Accept(IVisitor)
+    }
+
+    class Document{
+        +AddElement()
+        +PrintFormatted()
+        +ExportElements()
+    }

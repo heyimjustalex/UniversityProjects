@@ -1,0 +1,26 @@
+/* WorkoutItem.module.css */
+.container {
+  border: 1px solid #ccc;
+  padding: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  height: 300px;
+  margin: 20px auto;
+}
+
+.container:hover {
+  background-color: #222222;
+}
+
+.h2 {
+  margin-bottom: 8px;
+}
+
+.p {
+  display: -webkit-box;
+  -webkit-line-clamp: 10; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  width: 300px;
+  overflow: hidden;
+}

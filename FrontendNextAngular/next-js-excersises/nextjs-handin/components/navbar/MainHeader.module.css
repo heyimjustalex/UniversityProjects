@@ -1,0 +1,28 @@
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  margin: 0;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: #ccc;
+}

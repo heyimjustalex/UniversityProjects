@@ -1,0 +1,27 @@
+
+package it.ewlab.student;
+
+message Student {
+  required string name = 1;
+  required string surname = 2;
+  required int32 year = 3;
+
+  enum Sex {
+    MALE = 0;
+    FEMALE = 1;
+  }
+
+  message Residence {
+    required string city = 1;
+    required string street = 2;
+    required int32 number = 3;
+  }
+
+  message Exam {
+    required string name = 1;
+    required string mark = 2;
+  }
+
+  repeated Exam exam=4;
+  required Residence residence = 5;
+}

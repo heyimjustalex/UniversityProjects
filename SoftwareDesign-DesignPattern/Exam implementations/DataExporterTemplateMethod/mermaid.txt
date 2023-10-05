@@ -1,0 +1,43 @@
+
+classDiagram
+  
+    DataExporter <|-- CsvDataExporter
+    DataExporter <|-- DatabaseDataExporter
+    
+    class DataExporter{
+        +void ExportData()
+        -void LogExportCompletion()
+        -void FinalizeExport()
+
+        #void abstract ConnectToDataSource()
+        #void abstract ExtractData()
+        #void abstract TransformData()
+        #void abstract LoadDataToDestination()
+
+    }
+
+      class CsvDataExporter{
+        #void ConnectToDataSource()
+        #void ExtractData()
+        #void TransformData()
+        #void LoadDataToDestination()
+    
+  }
+
+    class DatabaseDataExporter{
+        #void ConnectToDataSource()
+        #void ExtractData()
+        #void TransformData()
+        #void LoadDataToDestination()
+  }
+    
+    
+
+
+
+
+
+    class Client{
+        +void Main()
+
+    }

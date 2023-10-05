@@ -1,0 +1,37 @@
+
+classDiagram
+  
+    AudioCompressionProcessor --> IAudioCompressionStrategy
+    Client --> AudioCompressionProcessor
+    Client --> Mp3AudioCompression
+    Client --> OggAudioCompression
+    IAudioCompressionStrategy <|-- Mp3AudioCompression
+    IAudioCompressionStrategy <|-- OggAudioCompression
+    
+    
+    class AudioCompressionProcessor{
+        +IAudioCompressionStrategy strategy
+        +AudioCompressionProcessor(IAudioCompressionStrategy strategy)
+        +void setStrategy(IAudioCompressionStrategy strategy)
+        +void CompressAudio(string filePath)
+    }
+
+
+
+    class IAudioCompressionStrategy{
+        +void Compress(string filePath)
+    }
+
+    class Mp3AudioCompression{
++void Compress(string filePath)
+    }
+
+    class OggAudioCompression{
++void Compress(string filePath)
+    }
+
+
+    class Client{
+        +void Main()
+
+    }

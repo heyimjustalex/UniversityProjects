@@ -1,0 +1,21 @@
+code,name,severity
+1,Drogowe,LOW
+2,Powodz,LOW
+3,Zwierzeta,MEDIUM
+4,Powodz,MEDIUM
+5,Powodz,LOW
+6,Wyciek plynow,MEDIUM
+7,Wypadek,MEDIUM
+8,Drogowe,MEDIUM
+9,Powodz,LOW
+10,Epidemia,HIGH
+11,Inne,MEDIUM
+12,Wypadek,MEDIUM
+13,Drogowe,MEDIUM
+14,Powodz,LOW
+15,Wyciek plynow,HIGH
+16,Wybuch,CRITICAL
+17,Kolizja,LOW
+18,Wybuch,CRITICAL
+19,Inne,LOW
+20,Drogowe,HIGH

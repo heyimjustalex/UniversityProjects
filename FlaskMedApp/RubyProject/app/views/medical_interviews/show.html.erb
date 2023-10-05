@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @medical_interview %>
+
+<div>
+  <%= link_to "Edit this medical interview", edit_medical_interview_path(@medical_interview) %> |
+  <%= link_to "Back to medical interviews", medical_interviews_path %>
+
+  <%= button_to "Destroy this medical interview", @medical_interview, method: :delete %>
+</div>

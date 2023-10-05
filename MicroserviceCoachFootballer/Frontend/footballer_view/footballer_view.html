@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="author" content="Aleksander Chotecki"/>
+         <link rel="shortcut icon" href="#">
+        <title>AUI-APP</title>
+        <link rel="stylesheet" href="../styles.css"/>
+          <script type="module" src="footballer_view.js" defer="defer"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <h1>AUI-APP</h1>
+            </header>
+
+            <nav class="navigation-bar">
+                <ul>
+                    <li><a href="../index.html">main</a></li>
+                    <li><a href="../coach_list/coach_list.html">coaches</a></li>
+                    <li><a href="../footballer_list/footballer_list.html">footballers</a></li>
+                </ul>
+            </nav>
+
+            <section class="main-section">
+                <article class="text--justified">
+                    <header><h2><a id="footballer_link" href="../create_footballer/create_footballer.html"></a></h2></header>
+                 
+                    <section>
+                        <h3>Footballer: </h3>
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>name</th>
+                                    <th>position</th>
+                                    <th>edit</th>
+                                    <th>delete</th>
+                                </tr>
+                            </thead>
+                            <tbody id="sendForm">
+                                <tr>
+                                    <td>name</td>
+                                 
+                                    <th>position</th>
+                                    <td><a href="#">edit</a></td>
+                                    <td>
+                                        <button class="ui-button ui-control">delete</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </article>
+            </section>
+
+            <footer class="footer">
+                <p>Copyright &copy; 2021</p>
+            </footer>
+        </div>
+    </body>
+</html>

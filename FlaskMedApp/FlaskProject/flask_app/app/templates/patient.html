@@ -1,0 +1,21 @@
+{% block content %}
+
+<h1> Patient ID: {{ patient.id}} </h1>
+<h2> Patient E-mail:{{ patient.email }}</h2>
+
+<div>
+    <div>
+        <b>Name: {{patient.name }}</b><br />
+        <b>Surname: {{patient.surname }} </b><br />
+        <b>Address: {{patient.address}} </b><br />
+        <b>Born: YYYY/MM/DD: {{patient.born.year }}{{"-"}}{{patient.born.month}}{{"-"}}{{patient.born.day}}
+        </b><br />
+        <b>Disability: {{patient.disability}} </b><br />
+        <b>Phone: {{patient.phone_num}} </b><br />
+        <b>Medical offer: {{patient.medical_offer }} </b><br />
+
+    </div>
+    <hr>
+    <a href="/patients">Back to patients</a>
+</div>
+{% endblock %}

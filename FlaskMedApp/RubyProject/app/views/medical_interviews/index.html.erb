@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Medical interviews</h1>
+
+<div id="medical_interviews">
+  <% @medical_interviews.each do |medical_interview| %>
+    <%= render medical_interview %>
+    <p>
+      <%= link_to "Show this medical interview", medical_interview %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New medical interview", new_medical_interview_path %>

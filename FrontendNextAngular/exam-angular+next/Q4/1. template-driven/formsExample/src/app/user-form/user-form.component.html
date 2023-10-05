@@ -1,0 +1,31 @@
+<!-- user-form.component.html -->
+<form #userForm="ngForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" [(ngModel)]="user.name" required />
+  </div>
+
+  <div>
+    <label for="email">Email:</label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      [(ngModel)]="user.email"
+      required
+    />
+  </div>
+
+  <div>
+    <label for="phone">Phone:</label>
+    <input
+      type="tel"
+      id="phone"
+      name="phone"
+      [(ngModel)]="user.phone"
+      required
+    />
+  </div>
+
+  <button type="submit" [disabled]="userForm.invalid">Submit</button>
+</form>

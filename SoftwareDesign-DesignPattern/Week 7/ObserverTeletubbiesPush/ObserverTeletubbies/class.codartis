@@ -1,0 +1,606 @@
+﻿{
+  "Version": 1,
+  "Properties": {
+    "AreNodeDescriptionsVisible": "True"
+  },
+  "Nodes": [
+    {
+      "Id": "1",
+      "Name": "IPhoneSubject",
+      "Stereotype": "Interface",
+      "CreatedAtUtc": "2023-10-09T15:41:34.8895380Z",
+      "AbsoluteTopLeft": "-322.0621,-97.6701",
+      "HeaderContentSize": "102,52",
+      "NodeTotalSize": "256.34,119",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "254.34,66",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "IPhoneSubject",
+        "FullName": "interface ObserverTeletubbies.IPhoneSubject",
+        "Symbols": [
+          "ObserverTeletubbies.IPhoneSubject"
+        ],
+        "IsDescriptionVisible": true,
+        "IsAbstract": true,
+        "Accessibility": "Internal",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "2",
+      "Name": "SubjectData",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-10-09T15:41:35.0295533Z",
+      "AbsoluteTopLeft": "-506.7228,168.8623",
+      "HeaderContentSize": "102,52",
+      "NodeTotalSize": "102,75",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "100,22",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "SubjectData",
+        "FullName": "class ObserverTeletubbies.SubjectData",
+        "Symbols": [
+          "ObserverTeletubbies.SubjectData"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "3",
+      "Name": "ConcretePhoneSubject",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-10-09T15:41:35.0375480Z",
+      "AbsoluteTopLeft": "-302.0393,130.6496",
+      "HeaderContentSize": "137.6267,52",
+      "NodeTotalSize": "256.34,207",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "254.34,154",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "ConcretePhoneSubject",
+        "FullName": "class ObserverTeletubbies.ConcretePhoneSubject",
+        "Symbols": [
+          "ObserverTeletubbies.ConcretePhoneSubject"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Internal",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "4",
+      "Name": "ITeletubbieObserver",
+      "Stereotype": "Interface",
+      "CreatedAtUtc": "2023-10-09T15:41:35.0395475Z",
+      "AbsoluteTopLeft": "208.3781,199.9231",
+      "HeaderContentSize": "123.0567,52",
+      "NodeTotalSize": "193.4267,75",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "191.4267,22",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "ITeletubbieObserver",
+        "FullName": "interface ObserverTeletubbies.ITeletubbieObserver",
+        "Symbols": [
+          "ObserverTeletubbies.ITeletubbieObserver"
+        ],
+        "IsDescriptionVisible": true,
+        "IsAbstract": true,
+        "Accessibility": "Internal",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "5",
+      "Name": "ConcreteTeletubbieObserver",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-10-09T15:41:35.0415495Z",
+      "AbsoluteTopLeft": "213.7282,-96.1863",
+      "HeaderContentSize": "170.4733,52",
+      "NodeTotalSize": "193.4267,119",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "191.4267,66",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "ConcreteTeletubbieObserver",
+        "FullName": "class ObserverTeletubbies.ConcreteTeletubbieObserver",
+        "Symbols": [
+          "ObserverTeletubbies.ConcreteTeletubbieObserver"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Internal",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "6",
+      "Name": "Program",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-10-09T15:41:35.0425481Z",
+      "AbsoluteTopLeft": "-6.5046,-233.4976",
+      "HeaderContentSize": "102,52",
+      "NodeTotalSize": "102,52",
+      "ChildrenAreaTopLeft": "1,0",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "Program",
+        "FullName": "class ObserverTeletubbies.Program",
+        "Symbols": [
+          "ObserverTeletubbies.Program"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Internal",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "7",
+      "ParentId": "5",
+      "Name": "int _id",
+      "Stereotype": "Field",
+      "CreatedAtUtc": "2023-10-09T15:43:23.0324476Z",
+      "AbsoluteTopLeft": "214.7282,-44.1863",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "61.0033,22",
+      "HeaderMinSize": "191.4267,22",
+      "NodeTotalSize": "191.4267,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "_id",
+        "FullName": "private int _id",
+        "Symbols": [
+          "ObserverTeletubbies.ConcreteTeletubbieObserver._id"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "8",
+      "ParentId": "5",
+      "Name": "IPhoneSubject _subject",
+      "Stereotype": "Field",
+      "CreatedAtUtc": "2023-10-09T15:43:23.9169850Z",
+      "AbsoluteTopLeft": "214.7282,-22.1863",
+      "RelativeTopLeft": "0,22",
+      "HeaderContentSize": "150.8067,22",
+      "HeaderMinSize": "191.4267,22",
+      "NodeTotalSize": "191.4267,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "_subject",
+        "FullName": "private IPhoneSubject _subject",
+        "Symbols": [
+          "ObserverTeletubbies.ConcreteTeletubbieObserver._subject"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "9",
+      "ParentId": "5",
+      "Name": "void Update(SubjectData data)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-10-09T15:43:24.6389095Z",
+      "AbsoluteTopLeft": "214.7282,-0.1863",
+      "RelativeTopLeft": "0,44",
+      "HeaderContentSize": "191.4267,22",
+      "HeaderMinSize": "191.4267,22",
+      "NodeTotalSize": "191.4267,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "Update",
+        "FullName": "public void Update(SubjectData data)",
+        "Symbols": [
+          "ObserverTeletubbies.ConcreteTeletubbieObserver.Update(ObserverTeletubbies.SubjectData data)"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "10",
+      "ParentId": "4",
+      "Name": "void Update(SubjectData data)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-10-09T15:43:26.7520019Z",
+      "AbsoluteTopLeft": "209.3781,251.9231",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "191.4267,22",
+      "HeaderMinSize": "191.4267,22",
+      "NodeTotalSize": "191.4267,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "Update",
+        "FullName": "void Update(SubjectData data)",
+        "Symbols": [
+          "ObserverTeletubbies.ITeletubbieObserver.Update(ObserverTeletubbies.SubjectData data)"
+        ],
+        "IsDescriptionVisible": true,
+        "IsAbstract": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "11",
+      "ParentId": "3",
+      "Name": "SubjectData _data",
+      "Stereotype": "Field",
+      "CreatedAtUtc": "2023-10-09T15:43:31.1656327Z",
+      "AbsoluteTopLeft": "-301.0393,182.6496",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "124.3167,22",
+      "HeaderMinSize": "254.34,22",
+      "NodeTotalSize": "254.34,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "_data",
+        "FullName": "private SubjectData _data",
+        "Symbols": [
+          "ObserverTeletubbies.ConcretePhoneSubject._data"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "12",
+      "ParentId": "3",
+      "Name": "List<ITeletubbieObserver> _observers",
+      "Stereotype": "Field",
+      "CreatedAtUtc": "2023-10-09T15:43:31.8982159Z",
+      "AbsoluteTopLeft": "-301.0393,204.6496",
+      "RelativeTopLeft": "0,22",
+      "HeaderContentSize": "228.0767,22",
+      "HeaderMinSize": "254.34,22",
+      "NodeTotalSize": "254.34,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "_observers",
+        "FullName": "private List<ITeletubbieObserver> _observers",
+        "Symbols": [
+          "ObserverTeletubbies.ConcretePhoneSubject._observers"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "13",
+      "ParentId": "3",
+      "Name": "SubjectData Data",
+      "Stereotype": "Property",
+      "CreatedAtUtc": "2023-10-09T15:43:32.5962329Z",
+      "AbsoluteTopLeft": "-301.0393,226.6496",
+      "RelativeTopLeft": "0,44",
+      "HeaderContentSize": "120.6833,22",
+      "HeaderMinSize": "254.34,22",
+      "NodeTotalSize": "254.34,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "Data",
+        "FullName": "public SubjectData Data { get; set; }",
+        "Symbols": [
+          "ObserverTeletubbies.ConcretePhoneSubject.Data"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "14",
+      "ParentId": "3",
+      "Name": "void Attach(ITeletubbieObserver observer)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-10-09T15:43:33.2257874Z",
+      "AbsoluteTopLeft": "-301.0393,248.6496",
+      "RelativeTopLeft": "0,66",
+      "HeaderContentSize": "251.4567,22",
+      "HeaderMinSize": "254.34,22",
+      "NodeTotalSize": "254.34,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "Attach",
+        "FullName": "public void Attach(ITeletubbieObserver observer)",
+        "Symbols": [
+          "ObserverTeletubbies.ConcretePhoneSubject.Attach(ObserverTeletubbies.ITeletubbieObserver observer)"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "15",
+      "ParentId": "3",
+      "Name": "void Detach(ITeletubbieObserver observer)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-10-09T15:43:33.8437025Z",
+      "AbsoluteTopLeft": "-301.0393,270.6496",
+      "RelativeTopLeft": "0,88",
+      "HeaderContentSize": "254.34,22",
+      "HeaderMinSize": "254.34,22",
+      "NodeTotalSize": "254.34,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "Detach",
+        "FullName": "public void Detach(ITeletubbieObserver observer)",
+        "Symbols": [
+          "ObserverTeletubbies.ConcretePhoneSubject.Detach(ObserverTeletubbies.ITeletubbieObserver observer)"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "16",
+      "ParentId": "3",
+      "Name": "SubjectData getSubjectState()",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-10-09T15:43:34.4893270Z",
+      "AbsoluteTopLeft": "-301.0393,292.6496",
+      "RelativeTopLeft": "0,110",
+      "HeaderContentSize": "186.1533,22",
+      "HeaderMinSize": "254.34,22",
+      "NodeTotalSize": "254.34,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "getSubjectState",
+        "FullName": "public SubjectData getSubjectState()",
+        "Symbols": [
+          "ObserverTeletubbies.ConcretePhoneSubject.getSubjectState()"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "17",
+      "ParentId": "3",
+      "Name": "void NotifyAll()",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-10-09T15:43:35.2711751Z",
+      "AbsoluteTopLeft": "-301.0393,314.6496",
+      "RelativeTopLeft": "0,132",
+      "HeaderContentSize": "108.3733,22",
+      "HeaderMinSize": "254.34,22",
+      "NodeTotalSize": "254.34,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "NotifyAll",
+        "FullName": "public void NotifyAll()",
+        "Symbols": [
+          "ObserverTeletubbies.ConcretePhoneSubject.NotifyAll()"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "18",
+      "ParentId": "1",
+      "Name": "void Attach(ITeletubbieObserver observer)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-10-09T15:43:36.9287524Z",
+      "AbsoluteTopLeft": "-321.0621,-45.6701",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "251.4567,22",
+      "HeaderMinSize": "254.34,22",
+      "NodeTotalSize": "254.34,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "Attach",
+        "FullName": "void Attach(ITeletubbieObserver observer)",
+        "Symbols": [
+          "ObserverTeletubbies.IPhoneSubject.Attach(ObserverTeletubbies.ITeletubbieObserver observer)"
+        ],
+        "IsDescriptionVisible": true,
+        "IsAbstract": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "19",
+      "ParentId": "1",
+      "Name": "void Detach(ITeletubbieObserver observer)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-10-09T15:43:37.8070417Z",
+      "AbsoluteTopLeft": "-321.0621,-23.6701",
+      "RelativeTopLeft": "0,22",
+      "HeaderContentSize": "254.34,22",
+      "HeaderMinSize": "254.34,22",
+      "NodeTotalSize": "254.34,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "Detach",
+        "FullName": "void Detach(ITeletubbieObserver observer)",
+        "Symbols": [
+          "ObserverTeletubbies.IPhoneSubject.Detach(ObserverTeletubbies.ITeletubbieObserver observer)"
+        ],
+        "IsDescriptionVisible": true,
+        "IsAbstract": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "20",
+      "ParentId": "1",
+      "Name": "void NotifyAll()",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-10-09T15:43:38.5426940Z",
+      "AbsoluteTopLeft": "-321.0621,-1.6701",
+      "RelativeTopLeft": "0,44",
+      "HeaderContentSize": "108.3733,22",
+      "HeaderMinSize": "254.34,22",
+      "NodeTotalSize": "254.34,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "NotifyAll",
+        "FullName": "void NotifyAll()",
+        "Symbols": [
+          "ObserverTeletubbies.IPhoneSubject.NotifyAll()"
+        ],
+        "IsDescriptionVisible": true,
+        "IsAbstract": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "21",
+      "ParentId": "2",
+      "Name": "string Data",
+      "Stereotype": "Property",
+      "CreatedAtUtc": "2023-10-09T15:43:41.3752212Z",
+      "AbsoluteTopLeft": "-505.7228,220.8623",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "87.0767,22",
+      "HeaderMinSize": "100,22",
+      "NodeTotalSize": "100,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "Data",
+        "FullName": "public string Data { get; set; }",
+        "Symbols": [
+          "ObserverTeletubbies.SubjectData.Data"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    }
+  ],
+  "Connectors": [
+    {
+      "Id": "1",
+      "SourceNodeId": "3",
+      "TargetNodeId": "1",
+      "Stereotype": "Implementation",
+      "Route": [
+        "-181.4793,130.6496",
+        "-189.5173,21.3299"
+      ],
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "ObserverTeletubbies.ConcretePhoneSubject|Implementation|ObserverTeletubbies.IPhoneSubject"
+      }
+    },
+    {
+      "Id": "2",
+      "SourceNodeId": "3",
+      "TargetNodeId": "4",
+      "Stereotype": "Association",
+      "Route": [
+        "-45.6993,235.0256",
+        "208.3781,236.7621"
+      ],
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "ObserverTeletubbies.ConcretePhoneSubject|Association|ObserverTeletubbies.ITeletubbieObserver",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text1": "*",
+              "Text2": "_observers",
+              "Tooltip": "private List<ITeletubbieObserver> _observers"
+            },
+            "Symbol": "ObserverTeletubbies.ConcretePhoneSubject._observers"
+          }
+        ],
+        "TargetLabelCenter": "183.3787,236.5912"
+      }
+    },
+    {
+      "Id": "3",
+      "SourceNodeId": "3",
+      "TargetNodeId": "2",
+      "Stereotype": "Association",
+      "Route": [
+        "-302.0393,221.5136",
+        "-404.7228,211.3903"
+      ],
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "ObserverTeletubbies.ConcretePhoneSubject|Association|ObserverTeletubbies.SubjectData",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_data",
+              "Tooltip": "private SubjectData _data"
+            },
+            "Symbol": "ObserverTeletubbies.ConcretePhoneSubject._data"
+          },
+          {
+            "Label": {
+              "Text2": "Data",
+              "Tooltip": "public SubjectData Data { get; set; }"
+            },
+            "Symbol": "ObserverTeletubbies.ConcretePhoneSubject.Data"
+          }
+        ],
+        "TargetLabelCenter": "-379.8434,213.8431"
+      }
+    },
+    {
+      "Id": "4",
+      "SourceNodeId": "5",
+      "TargetNodeId": "4",
+      "Stereotype": "Implementation",
+      "Route": [
+        "309.2802,22.8137",
+        "305.8234,199.9231"
+      ],
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "ObserverTeletubbies.ConcreteTeletubbieObserver|Implementation|ObserverTeletubbies.ITeletubbieObserver"
+      }
+    },
+    {
+      "Id": "5",
+      "SourceNodeId": "5",
+      "TargetNodeId": "1",
+      "Stereotype": "Association",
+      "Route": [
+        "213.7282,-36.9708",
+        "-65.7221,-37.793"
+      ],
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "ObserverTeletubbies.ConcreteTeletubbieObserver|Association|ObserverTeletubbies.IPhoneSubject",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_subject",
+              "Tooltip": "private IPhoneSubject _subject"
+            },
+            "Symbol": "ObserverTeletubbies.ConcreteTeletubbieObserver._subject"
+          }
+        ],
+        "TargetLabelCenter": "-40.7222,-37.7195"
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="author" content="Aleksander Chotecki"/>
+        <title>AUI-APP</title>
+         <link rel="shortcut icon" href="#">
+        <link rel="stylesheet" href="../styles.css"/>
+        <script type="module" src="create_coach.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <h1>AUI-APP</h1>
+            </header>
+
+            <nav class="navigation-bar">
+                <ul>
+                    <li><a href="../index.html">Strona glowna</a></li>
+                    <li><a href="../coach_list/coach_list.html">coaches</a></li>
+                    <li><a href="../footballer_list/footballer_list.html">footballers</a></li>
+                </ul>
+            </nav>
+
+            <section class="main-section">
+                <h1>Add a coach</h1>
+                <article class="text--justified">
+                    <form id="sendForm">
+                        <label for="name">Name:</label>
+                        <input class="ui-control ui-input" id="name" name="name"/>
+                        <label for="surname">Surname:</label>
+                        <input class="ui-control ui-input" id="surname" name="surname"/>
+                        
+                        <input class="ui-control ui-button" type="submit" name="Create" value="Send"/>
+                    </form>
+                </article>
+            </section>
+
+            <footer class="footer">
+                <p>Copyright &copy; 2021</p>
+            </footer>
+        </div>
+    </body>
+</html>

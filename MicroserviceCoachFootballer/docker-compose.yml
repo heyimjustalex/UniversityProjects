@@ -1,0 +1,75 @@
+version: "3.3"
+
+services:
+
+  coaches:
+    build:
+      context: ./Coach_microservice/
+      dockerfile: Dockerfile
+    container_name: coaches
+    restart: always
+    ports:
+      - "8081:8081"
+    networks:
+      - net
+
+  footballers:
+    build:
+      context: ./Footballer_microservice/
+      dockerfile: Dockerfile
+    container_name: footballers
+    restart: always
+    depends_on:
+      - coaches
+    ports:
+      - "8082:8082"
+    networks:
+      - net
+
+  gateway:
+    build:
+      context: ./Gateway/
+      dockerfile: Dockerfile
+    container_name: gateway
+    restart: always
+    depends_on:
+      - coaches
+      - footballers
+    ports:
+      - "8080:8080"
+    networks:
+      - net
+
+  frontend:
+    build:
+      context: ./Frontend
+      dockerfile: Dockerfile
+    container_name: frontend
+    restart: always
+    depends_on:
+      - coaches
+      - footballers
+      - gateway
+    ports:
+      - "8083:80"
+    networks:
+      - net
+    
+  rev_proxy:
+    build:
+      context: ./rev_proxy
+      dockerfile: Dockerfile
+    container_name: rev_proxy
+    restart: always
+    depends_on:
+      - coaches
+      - footballers
+      - gateway
+      - frontend
+    ports:
+      - "80:80"
+    networks:
+      - net
+    
+networks:
+  net:

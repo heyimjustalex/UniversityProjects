@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+  width: 400px;
+  border: 1px solid #0070f3;
+  padding: 25px;
+}
+
+.label {
+  display: block;
+  padding: 3px;
+
+  margin-bottom: 12px;
+}
+
+.input {
+  margin-left: 6px;
+}

@@ -1,0 +1,885 @@
+﻿{
+  "Version": 1,
+  "Properties": {
+    "AreNodeDescriptionsVisible": "True"
+  },
+  "Nodes": [
+    {
+      "Id": "1",
+      "Name": "IReportFormater",
+      "Stereotype": "Interface",
+      "CreatedAtUtc": "2023-09-22T07:34:58.3081884Z",
+      "AbsoluteTopLeft": "200.474,-423.9925",
+      "HeaderContentSize": "102.5833,52",
+      "NodeTotalSize": "307.3867,75",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "305.3867,22",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "IReportFormater",
+        "FullName": "interface ex2.ReportFormaters.IReportFormater",
+        "Symbols": [
+          "ex2.ReportFormaters.IReportFormater"
+        ],
+        "IsDescriptionVisible": true,
+        "IsAbstract": true,
+        "Accessibility": "Internal",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "2",
+      "Name": "Employee",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-09-22T07:34:58.4531486Z",
+      "AbsoluteTopLeft": "-596.0509,-121.4657",
+      "HeaderContentSize": "102,52",
+      "NodeTotalSize": "102,119",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "100,66",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "Employee",
+        "FullName": "class ex2.Entity.Employee",
+        "Symbols": [
+          "ex2.Entity.Employee"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "3",
+      "Name": "FieldLastFormater",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-09-22T07:34:58.4601491Z",
+      "AbsoluteTopLeft": "475.8201,299.1584",
+      "HeaderContentSize": "111.2533,52",
+      "NodeTotalSize": "326.2533,75",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "324.2533,22",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "FieldLastFormater",
+        "FullName": "class ex2.FunctionFormaters.FieldLastFormater",
+        "Symbols": [
+          "ex2.FunctionFormaters.FieldLastFormater"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "4",
+      "Name": "NameFirstFormat",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-09-22T07:34:58.4631487Z",
+      "AbsoluteTopLeft": "-122.3919,-51.2423",
+      "HeaderContentSize": "108.3767,52",
+      "NodeTotalSize": "307.3867,75",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "305.3867,22",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "NameFirstFormat",
+        "FullName": "class ex2.ReportFormats.NameFirstFormat",
+        "Symbols": [
+          "ex2.ReportFormats.NameFirstFormat"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Internal",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "5",
+      "Name": "AgeLastFormat",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-09-22T07:34:58.4641492Z",
+      "AbsoluteTopLeft": "234.9948,-52.38",
+      "HeaderContentSize": "102,52",
+      "NodeTotalSize": "307.3867,75",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "305.3867,22",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "AgeLastFormat",
+        "FullName": "class ex2.ReportFormats.AgeLastFormat",
+        "Symbols": [
+          "ex2.ReportFormats.AgeLastFormat"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Internal",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "6",
+      "Name": "EmployeeDB",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-09-22T07:34:58.4651494Z",
+      "AbsoluteTopLeft": "-417.3052,-159.2133",
+      "HeaderContentSize": "102,52",
+      "NodeTotalSize": "244.9133,185",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "242.9133,132",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "EmployeeDB",
+        "FullName": "class ex2.Entity.EmployeeDB",
+        "Symbols": [
+          "ex2.Entity.EmployeeDB"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "7",
+      "Name": "IFunctionFormater",
+      "Stereotype": "Interface",
+      "CreatedAtUtc": "2023-09-22T07:34:58.4651494Z",
+      "AbsoluteTopLeft": "296.3455,153.0787",
+      "HeaderContentSize": "113.8867,52",
+      "NodeTotalSize": "113.8867,52",
+      "ChildrenAreaTopLeft": "1,0",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "IFunctionFormater",
+        "FullName": "interface ex2.FunctionFormaters.IFunctionFormater",
+        "Symbols": [
+          "ex2.FunctionFormaters.IFunctionFormater"
+        ],
+        "IsDescriptionVisible": true,
+        "IsAbstract": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "8",
+      "Name": "ReportFormater",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-09-22T07:34:58.4651494Z",
+      "AbsoluteTopLeft": "194.9667,-291.7574",
+      "HeaderContentSize": "102,52",
+      "NodeTotalSize": "329.2667,97",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "327.2667,44",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "ReportFormater",
+        "FullName": "class ex2.ReportFormaters.ReportFormater",
+        "Symbols": [
+          "ex2.ReportFormaters.ReportFormater"
+        ],
+        "IsDescriptionVisible": true,
+        "IsAbstract": true,
+        "Accessibility": "Internal",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "9",
+      "Name": "ReportGeneratorClient",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-09-22T07:34:58.4661562Z",
+      "AbsoluteTopLeft": "-613.9864,-322.0167",
+      "HeaderContentSize": "138.0733,52",
+      "NodeTotalSize": "138.0733,75",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "136.0733,22",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "ReportGeneratorClient",
+        "FullName": "class ReportGenerator.ReportGeneratorClient",
+        "Symbols": [
+          "ReportGenerator.ReportGeneratorClient"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Internal",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "10",
+      "Name": "ReportGenerator",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-09-22T07:34:58.4661562Z",
+      "AbsoluteTopLeft": "-414.7728,-354.769",
+      "HeaderContentSize": "105.3433,52",
+      "NodeTotalSize": "279.4933,97",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "277.4933,44",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "ReportGenerator",
+        "FullName": "class ReportGenerator.ReportGenerator",
+        "Symbols": [
+          "ReportGenerator.ReportGenerator"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Internal",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "11",
+      "Name": "SalaryFirstFormat",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-09-22T07:34:58.4671492Z",
+      "AbsoluteTopLeft": "607.0982,-53.4763",
+      "HeaderContentSize": "109.7167,52",
+      "NodeTotalSize": "307.3867,75",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "305.3867,22",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "SalaryFirstFormat",
+        "FullName": "class ex2.ReportFormats.SalaryFirstFormat",
+        "Symbols": [
+          "ex2.ReportFormats.SalaryFirstFormat"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Internal",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "12",
+      "Name": "FieldFirstFormater",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-09-22T07:34:58.4691522Z",
+      "AbsoluteTopLeft": "-57.5368,298.759",
+      "HeaderContentSize": "113.16,52",
+      "NodeTotalSize": "326.2533,75",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "324.2533,22",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "FieldFirstFormater",
+        "FullName": "class ex2.FunctionFormaters.FieldFirstFormater",
+        "Symbols": [
+          "ex2.FunctionFormaters.FieldFirstFormater"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "13",
+      "ParentId": "2",
+      "Name": "uint Age",
+      "Stereotype": "Property",
+      "CreatedAtUtc": "2023-09-22T07:36:35.1846541Z",
+      "AbsoluteTopLeft": "-595.0509,-69.4657",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "73.9233,22",
+      "HeaderMinSize": "100,22",
+      "NodeTotalSize": "100,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "Age",
+        "FullName": "public uint Age { get; private set; }",
+        "Symbols": [
+          "ex2.Entity.Employee.Age"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "14",
+      "ParentId": "2",
+      "Name": "string Name",
+      "Stereotype": "Property",
+      "CreatedAtUtc": "2023-09-22T07:36:35.7136993Z",
+      "AbsoluteTopLeft": "-595.0509,-47.4657",
+      "RelativeTopLeft": "0,22",
+      "HeaderContentSize": "94.08,22",
+      "HeaderMinSize": "100,22",
+      "NodeTotalSize": "100,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "Name",
+        "FullName": "public string Name { get; private set; }",
+        "Symbols": [
+          "ex2.Entity.Employee.Name"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "15",
+      "ParentId": "2",
+      "Name": "uint Salary",
+      "Stereotype": "Property",
+      "CreatedAtUtc": "2023-09-22T07:36:36.0385846Z",
+      "AbsoluteTopLeft": "-595.0509,-25.4657",
+      "RelativeTopLeft": "0,44",
+      "HeaderContentSize": "84.3133,22",
+      "HeaderMinSize": "100,22",
+      "NodeTotalSize": "100,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "Salary",
+        "FullName": "public uint Salary { get; private set; }",
+        "Symbols": [
+          "ex2.Entity.Employee.Salary"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "16",
+      "ParentId": "6",
+      "Name": "int _currentEmployeeIndex",
+      "Stereotype": "Field",
+      "CreatedAtUtc": "2023-09-22T07:36:39.9262825Z",
+      "AbsoluteTopLeft": "-416.3052,-107.2133",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "169.4333,22",
+      "HeaderMinSize": "242.9133,22",
+      "NodeTotalSize": "242.9133,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "_currentEmployeeIndex",
+        "FullName": "private int _currentEmployeeIndex",
+        "Symbols": [
+          "ex2.Entity.EmployeeDB._currentEmployeeIndex"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "17",
+      "ParentId": "6",
+      "Name": "void AddEmployee(Employee employee)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-22T07:36:42.2623057Z",
+      "AbsoluteTopLeft": "-416.3052,-63.2133",
+      "RelativeTopLeft": "0,44",
+      "HeaderContentSize": "242.9133,22",
+      "HeaderMinSize": "242.9133,22",
+      "NodeTotalSize": "242.9133,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "AddEmployee",
+        "FullName": "public void AddEmployee(Employee employee)",
+        "Symbols": [
+          "ex2.Entity.EmployeeDB.AddEmployee(ex2.Entity.Employee employee)"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "18",
+      "ParentId": "6",
+      "Name": "List<Employee> _employees",
+      "Stereotype": "Field",
+      "CreatedAtUtc": "2023-09-22T07:36:43.0876035Z",
+      "AbsoluteTopLeft": "-416.3052,-85.2133",
+      "RelativeTopLeft": "0,22",
+      "HeaderContentSize": "180.2167,22",
+      "HeaderMinSize": "242.9133,22",
+      "NodeTotalSize": "242.9133,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "_employees",
+        "FullName": "private readonly List<Employee> _employees",
+        "Symbols": [
+          "ex2.Entity.EmployeeDB._employees"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "19",
+      "ParentId": "6",
+      "Name": "List<Employee> GetAllEmployees()",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-22T07:36:43.5347297Z",
+      "AbsoluteTopLeft": "-416.3052,-41.2133",
+      "RelativeTopLeft": "0,66",
+      "HeaderContentSize": "214.4,22",
+      "HeaderMinSize": "242.9133,22",
+      "NodeTotalSize": "242.9133,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "GetAllEmployees",
+        "FullName": "public List<Employee> GetAllEmployees()",
+        "Symbols": [
+          "ex2.Entity.EmployeeDB.GetAllEmployees()"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "20",
+      "ParentId": "6",
+      "Name": "Employee GetNextEmployee()",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-22T07:36:44.1123809Z",
+      "AbsoluteTopLeft": "-416.3052,-19.2133",
+      "RelativeTopLeft": "0,88",
+      "HeaderContentSize": "186.4433,22",
+      "HeaderMinSize": "242.9133,22",
+      "NodeTotalSize": "242.9133,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "GetNextEmployee",
+        "FullName": "public Employee GetNextEmployee()",
+        "Symbols": [
+          "ex2.Entity.EmployeeDB.GetNextEmployee()"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "21",
+      "ParentId": "6",
+      "Name": "void Reset()",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-22T07:36:44.8709877Z",
+      "AbsoluteTopLeft": "-416.3052,2.7867",
+      "RelativeTopLeft": "0,110",
+      "HeaderContentSize": "90.8167,22",
+      "HeaderMinSize": "242.9133,22",
+      "NodeTotalSize": "242.9133,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "Reset",
+        "FullName": "public void Reset()",
+        "Symbols": [
+          "ex2.Entity.EmployeeDB.Reset()"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "22",
+      "ParentId": "10",
+      "Name": "EmployeeDB _employeeDb",
+      "Stereotype": "Field",
+      "CreatedAtUtc": "2023-09-22T07:36:48.4679614Z",
+      "AbsoluteTopLeft": "-413.7728,-302.769",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "171.7467,22",
+      "HeaderMinSize": "277.4933,22",
+      "NodeTotalSize": "277.4933,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "_employeeDb",
+        "FullName": "private readonly EmployeeDB _employeeDb",
+        "Symbols": [
+          "ReportGenerator.ReportGenerator._employeeDb"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "23",
+      "ParentId": "10",
+      "Name": "void CompileReport(IReportFormater formater)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-22T07:36:50.6147425Z",
+      "AbsoluteTopLeft": "-413.7728,-280.769",
+      "RelativeTopLeft": "0,22",
+      "HeaderContentSize": "277.4933,22",
+      "HeaderMinSize": "277.4933,22",
+      "NodeTotalSize": "277.4933,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "CompileReport",
+        "FullName": "public void CompileReport(IReportFormater formater)",
+        "Symbols": [
+          "ReportGenerator.ReportGenerator.CompileReport(ex2.ReportFormaters.IReportFormater formater)"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "24",
+      "ParentId": "9",
+      "Name": "void Main()",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-22T07:36:54.1982055Z",
+      "AbsoluteTopLeft": "-612.9864,-270.0167",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "88.8567,22",
+      "HeaderMinSize": "136.0733,22",
+      "NodeTotalSize": "136.0733,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "Main",
+        "FullName": "private static void Main()",
+        "Symbols": [
+          "ReportGenerator.ReportGeneratorClient.Main()"
+        ],
+        "IsDescriptionVisible": true,
+        "IsStatic": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "25",
+      "ParentId": "4",
+      "Name": "void printFormatedText(List<Employee> employees)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-22T07:37:16.5632060Z",
+      "AbsoluteTopLeft": "-121.3919,0.7577",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "305.3867,22",
+      "HeaderMinSize": "305.3867,22",
+      "NodeTotalSize": "305.3867,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "printFormatedText",
+        "FullName": "public override void printFormatedText(List<Employee> employees)",
+        "Symbols": [
+          "ex2.ReportFormats.NameFirstFormat.printFormatedText(System.Collections.Generic.List<ex2.Entity.Employee> employees)"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "26",
+      "ParentId": "5",
+      "Name": "void printFormatedText(List<Employee> employees)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-22T07:37:19.9079917Z",
+      "AbsoluteTopLeft": "235.9948,-0.38",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "305.3867,22",
+      "HeaderMinSize": "305.3867,22",
+      "NodeTotalSize": "305.3867,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "printFormatedText",
+        "FullName": "public override void printFormatedText(List<Employee> employees)",
+        "Symbols": [
+          "ex2.ReportFormats.AgeLastFormat.printFormatedText(System.Collections.Generic.List<ex2.Entity.Employee> employees)"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "27",
+      "ParentId": "11",
+      "Name": "void printFormatedText(List<Employee> employees)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-22T07:37:21.7887123Z",
+      "AbsoluteTopLeft": "608.0982,-1.4763",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "305.3867,22",
+      "HeaderMinSize": "305.3867,22",
+      "NodeTotalSize": "305.3867,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "printFormatedText",
+        "FullName": "public override void printFormatedText(List<Employee> employees)",
+        "Symbols": [
+          "ex2.ReportFormats.SalaryFirstFormat.printFormatedText(System.Collections.Generic.List<ex2.Entity.Employee> employees)"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "28",
+      "ParentId": "8",
+      "Name": "void printAllFieldsOfObject<T>(List<T> objects, Func<List<PropertyInfo>, List<PropertyInfo>> listOfFieldsCustomModificator)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-22T07:37:45.6752782Z",
+      "AbsoluteTopLeft": "195.9667,-239.7574",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "327.2667,22",
+      "HeaderMinSize": "327.2667,22",
+      "NodeTotalSize": "327.2667,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "printAllFieldsOfObject",
+        "FullName": "protected void printAllFieldsOfObject<T>(List<T> objects, Func<List<PropertyInfo>, List<PropertyInfo>> listOfFieldsCustomModificator = null)",
+        "Symbols": [
+          "ex2.ReportFormaters.ReportFormater.printAllFieldsOfObject<T>(System.Collections.Generic.List<T> objects, System.Func<System.Collections.Generic.List<System.Reflection.PropertyInfo>, System.Collections.Generic.List<System.Reflection.PropertyInfo>> listOfFieldsCustomModificator)"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Protected",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "29",
+      "ParentId": "8",
+      "Name": "void printFormatedText(List<Employee> employees)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-22T07:37:50.7424137Z",
+      "AbsoluteTopLeft": "195.9667,-217.7574",
+      "RelativeTopLeft": "0,22",
+      "HeaderContentSize": "305.3867,22",
+      "HeaderMinSize": "327.2667,22",
+      "NodeTotalSize": "327.2667,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "printFormatedText",
+        "FullName": "public abstract void printFormatedText(List<Employee> employees)",
+        "Symbols": [
+          "ex2.ReportFormaters.ReportFormater.printFormatedText(System.Collections.Generic.List<ex2.Entity.Employee> employees)"
+        ],
+        "IsDescriptionVisible": true,
+        "IsAbstract": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "30",
+      "ParentId": "1",
+      "Name": "void printFormatedText(List<Employee> employees)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-22T07:37:53.4375829Z",
+      "AbsoluteTopLeft": "201.474,-371.9925",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "305.3867,22",
+      "HeaderMinSize": "305.3867,22",
+      "NodeTotalSize": "305.3867,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "printFormatedText",
+        "FullName": "void printFormatedText(List<Employee> employees)",
+        "Symbols": [
+          "ex2.ReportFormaters.IReportFormater.printFormatedText(System.Collections.Generic.List<ex2.Entity.Employee> employees)"
+        ],
+        "IsDescriptionVisible": true,
+        "IsAbstract": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "31",
+      "ParentId": "12",
+      "Name": "Func<List<PropertyInfo>, List<PropertyInfo>> formater(string fieldNameToBeModified)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-22T07:38:52.2264262Z",
+      "AbsoluteTopLeft": "-56.5368,350.759",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "324.2533,22",
+      "HeaderMinSize": "324.2533,22",
+      "NodeTotalSize": "324.2533,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "formater",
+        "FullName": "public Func<List<PropertyInfo>, List<PropertyInfo>> formater(string fieldNameToBeModified)",
+        "Symbols": [
+          "ex2.FunctionFormaters.FieldFirstFormater.formater(System.String fieldNameToBeModified)"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "32",
+      "ParentId": "3",
+      "Name": "Func<List<PropertyInfo>, List<PropertyInfo>> formater(string fieldNameToBeModified)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-22T07:38:54.7888415Z",
+      "AbsoluteTopLeft": "476.8201,351.1584",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "324.2533,22",
+      "HeaderMinSize": "324.2533,22",
+      "NodeTotalSize": "324.2533,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "formater",
+        "FullName": "public Func<List<PropertyInfo>, List<PropertyInfo>> formater(string fieldNameToBeModified)",
+        "Symbols": [
+          "ex2.FunctionFormaters.FieldLastFormater.formater(System.String fieldNameToBeModified)"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    }
+  ],
+  "Connectors": [
+    {
+      "Id": "1",
+      "SourceNodeId": "8",
+      "TargetNodeId": "1",
+      "Stereotype": "Implementation",
+      "Route": [
+        "357.7605,-291.7574",
+        "355.5896,-348.9925"
+      ],
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "ex2.ReportFormaters.ReportFormater|Implementation|ex2.ReportFormaters.IReportFormater"
+      }
+    },
+    {
+      "Id": "2",
+      "SourceNodeId": "3",
+      "TargetNodeId": "7",
+      "Stereotype": "Implementation",
+      "Route": [
+        "570.9674,299.1584",
+        "400.4212,205.0787"
+      ],
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "ex2.FunctionFormaters.FieldLastFormater|Implementation|ex2.FunctionFormaters.IFunctionFormater"
+      }
+    },
+    {
+      "Id": "3",
+      "SourceNodeId": "4",
+      "TargetNodeId": "8",
+      "Stereotype": "Inheritance",
+      "Route": [
+        "84.9414,-51.2423",
+        "290.2256,-194.7574"
+      ],
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "ex2.ReportFormats.NameFirstFormat|Inheritance|ex2.ReportFormaters.ReportFormater"
+      }
+    },
+    {
+      "Id": "4",
+      "SourceNodeId": "5",
+      "TargetNodeId": "8",
+      "Stereotype": "Inheritance",
+      "Route": [
+        "383.9118,-52.38",
+        "365.7774,-194.7574"
+      ],
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "ex2.ReportFormats.AgeLastFormat|Inheritance|ex2.ReportFormaters.ReportFormater"
+      }
+    },
+    {
+      "Id": "5",
+      "SourceNodeId": "6",
+      "TargetNodeId": "2",
+      "Stereotype": "Association",
+      "Route": [
+        "-417.3052,-64.3897",
+        "-494.0509,-62.9334"
+      ],
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "ex2.Entity.EmployeeDB|Association|ex2.Entity.Employee",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text1": "*",
+              "Text2": "_employees",
+              "Tooltip": "private readonly List<Employee> _employees"
+            },
+            "Symbol": "ex2.Entity.EmployeeDB._employees"
+          }
+        ],
+        "TargetLabelCenter": "-469.0554,-63.4077"
+      }
+    },
+    {
+      "Id": "6",
+      "SourceNodeId": "12",
+      "TargetNodeId": "7",
+      "Stereotype": "Implementation",
+      "Route": [
+        "164.6857,298.759",
+        "312.3156,205.0787"
+      ],
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "ex2.FunctionFormaters.FieldFirstFormater|Implementation|ex2.FunctionFormaters.IFunctionFormater"
+      }
+    },
+    {
+      "Id": "7",
+      "SourceNodeId": "10",
+      "TargetNodeId": "6",
+      "Stereotype": "Association",
+      "Route": [
+        "-279.0393,-257.769",
+        "-287.1945,-159.2133"
+      ],
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "ReportGenerator.ReportGenerator|Association|ex2.Entity.EmployeeDB",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_employeeDb",
+              "Tooltip": "private readonly EmployeeDB _employeeDb",
+              "CanBeHidden": true
+            },
+            "Symbol": "ReportGenerator.ReportGenerator._employeeDb"
+          }
+        ],
+        "TargetLabelCenter": "-285.1329,-184.1281"
+      }
+    },
+    {
+      "Id": "8",
+      "SourceNodeId": "11",
+      "TargetNodeId": "8",
+      "Stereotype": "Inheritance",
+      "Route": [
+        "694.5974,-53.4763",
+        "445.2111,-194.7574"
+      ],
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "ex2.ReportFormats.SalaryFirstFormat|Inheritance|ex2.ReportFormaters.ReportFormater"
+      }
+    }
+  ]
+}

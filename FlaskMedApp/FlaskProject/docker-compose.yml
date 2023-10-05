@@ -1,0 +1,57 @@
+version: '3.8'
+
+services:
+  app:
+    build: ./flask_app
+    command: python3 /flask_app/start.py
+    container_name: flask_app
+    volumes:
+      - ./flask_app:/flask_app
+    environment:
+      FLASK_DEBUG: 1
+      FLASK_APP: ./flask_app/start.py
+      DATABASE_URL: postgresql://flaskapp:flaskapp@db:5432/flaskapp
+    restart: on-failure
+    ports:
+      - 8000:8000
+    depends_on:
+      - db
+    networks:
+      - abd_network
+  db:
+    image: postgres:13-alpine
+    container_name: postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    restart: on-failure
+    environment:
+      - POSTGRES_USER=flaskapp
+      - POSTGRES_PASSWORD=flaskapp
+      - POSTGRES_DB=flaskapp
+    networks:
+      - abd_network
+    ports:
+      - 5432:5432
+  pgadmin4:
+    image: dpage/pgadmin4
+    container_name: pgadmin4
+    restart: on-failure
+    volumes:
+      - abd_pga4volume:/var/lib/pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "postgres@postgres.com"
+      PGADMIN_DEFAULT_PASSWORD: "postgres"
+    depends_on:
+      - db
+    networks:
+      - abd_network
+    ports:
+      - 8081:80
+volumes:
+  postgres_data:
+  abd_pga4volume:
+
+
+networks:
+  abd_network:
+    driver: bridge

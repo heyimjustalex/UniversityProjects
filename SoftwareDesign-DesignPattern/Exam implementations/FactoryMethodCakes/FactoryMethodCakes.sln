@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheCakesProblem", "FactoryMethodCakes\TheCakesProblem.csproj", "{1438689A-DBD7-47D4-8A71-7041C9E4D636}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CakesWithSimpleFactory", "CakesWithSimpleFactoryClass\CakesWithSimpleFactory.csproj", "{F72690B7-D2F3-40C6-8E7C-2CB9138ADF64}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CakesWithFactoryMethod", "CakesWithFactoryMethod\CakesWithFactoryMethod.csproj", "{D7F2F630-2705-4EB6-9531-DC3BD7DD1321}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddNewProductFamilyProblemAbstractFactory", "AddNewProductFamilyProblemAbstractFactory\AddNewProductFamilyProblemAbstractFactory.csproj", "{98D7DBC8-724D-4E84-BD97-9964F05CC0E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryCakeYoghurt", "AbstractFactoryCakeYoghurt\AbstractFactoryCakeYoghurt.csproj", "{BE589010-2AB5-4A41-AE92-7106DBAE7236}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryDifferentExample", "AbstractFactoryDifferentExample\AbstractFactoryDifferentExample.csproj", "{C15B219E-EC65-4FDF-8C05-7E542737621C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1438689A-DBD7-47D4-8A71-7041C9E4D636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1438689A-DBD7-47D4-8A71-7041C9E4D636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1438689A-DBD7-47D4-8A71-7041C9E4D636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1438689A-DBD7-47D4-8A71-7041C9E4D636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F72690B7-D2F3-40C6-8E7C-2CB9138ADF64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F72690B7-D2F3-40C6-8E7C-2CB9138ADF64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F72690B7-D2F3-40C6-8E7C-2CB9138ADF64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F72690B7-D2F3-40C6-8E7C-2CB9138ADF64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7F2F630-2705-4EB6-9531-DC3BD7DD1321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F2F630-2705-4EB6-9531-DC3BD7DD1321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F2F630-2705-4EB6-9531-DC3BD7DD1321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F2F630-2705-4EB6-9531-DC3BD7DD1321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98D7DBC8-724D-4E84-BD97-9964F05CC0E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D7DBC8-724D-4E84-BD97-9964F05CC0E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98D7DBC8-724D-4E84-BD97-9964F05CC0E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98D7DBC8-724D-4E84-BD97-9964F05CC0E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE589010-2AB5-4A41-AE92-7106DBAE7236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE589010-2AB5-4A41-AE92-7106DBAE7236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE589010-2AB5-4A41-AE92-7106DBAE7236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE589010-2AB5-4A41-AE92-7106DBAE7236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C15B219E-EC65-4FDF-8C05-7E542737621C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C15B219E-EC65-4FDF-8C05-7E542737621C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C15B219E-EC65-4FDF-8C05-7E542737621C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C15B219E-EC65-4FDF-8C05-7E542737621C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0ACC8727-696B-4C24-9A88-B5B98DDF04B2}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1154 @@
+﻿{
+  "Version": 1,
+  "Properties": {
+    "AreNodeDescriptionsVisible": "True"
+  },
+  "Nodes": [
+    {
+      "Id": "1",
+      "Name": "Simulation",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-09-01T18:21:45.8325504Z",
+      "AbsoluteTopLeft": "-240.1071,-29.5845",
+      "HeaderContentSize": "102,52",
+      "NodeTotalSize": "256.75,229",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "254.75,176",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "Simulation",
+        "FullName": "class CardGame.Simulation",
+        "Symbols": [
+          "CardGame.Simulation"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Internal",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "10",
+      "Name": "Deck",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-09-01T18:22:20.5795774Z",
+      "AbsoluteTopLeft": "285.0216,355.6864",
+      "HeaderContentSize": "102,52",
+      "NodeTotalSize": "328.2833,163",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "326.2833,110",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "Deck",
+        "FullName": "class CardGame.Deck",
+        "Symbols": [
+          "CardGame.Deck"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Internal",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "11",
+      "Name": "Game",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-09-01T18:22:22.5309141Z",
+      "AbsoluteTopLeft": "371.9575,59.4416",
+      "HeaderContentSize": "102,52",
+      "NodeTotalSize": "165.7333,185",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "163.7333,132",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "Game",
+        "FullName": "class CardGame.Game",
+        "Symbols": [
+          "CardGame.Game"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Internal",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "12",
+      "Name": "Player",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-09-01T18:22:23.3881507Z",
+      "AbsoluteTopLeft": "365.2,-202.6869",
+      "HeaderContentSize": "102,52",
+      "NodeTotalSize": "160.2467,207",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "158.2467,154",
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "Player",
+        "FullName": "class CardGame.Player",
+        "Symbols": [
+          "CardGame.Player"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Internal",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "13",
+      "Name": "Card",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-09-01T18:22:32.4701587Z",
+      "AbsoluteTopLeft": "878.0317,11.6492",
+      "HeaderContentSize": "102,52",
+      "NodeTotalSize": "181.1333,163",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "179.1333,110",
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "Card",
+        "FullName": "class Card",
+        "Symbols": [
+          "Card"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Internal",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "14",
+      "Name": "WeakPlayer",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-09-01T18:22:46.9579505Z",
+      "AbsoluteTopLeft": "616.2467,-212.2762",
+      "HeaderContentSize": "102,52",
+      "NodeTotalSize": "160.2467,75",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "158.2467,22",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "WeakPlayer",
+        "FullName": "class CardGame.WeakPlayer",
+        "Symbols": [
+          "CardGame.WeakPlayer"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Internal",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "15",
+      "Name": "GameLowestVariant",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2023-09-01T18:22:53.2305350Z",
+      "AbsoluteTopLeft": "633.8474,111.3213",
+      "HeaderContentSize": "122.0733,52",
+      "NodeTotalSize": "149.3633,75",
+      "ChildrenAreaTopLeft": "1,52",
+      "ChildrenAreaSize": "147.3633,22",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "GameLowestVariant",
+        "FullName": "class CardGame.GameLowestVariant",
+        "Symbols": [
+          "CardGame.GameLowestVariant"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Internal",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "5",
+      "ParentId": "1",
+      "Name": "List<Player> _players",
+      "Stereotype": "Field",
+      "CreatedAtUtc": "2023-09-01T18:22:06.8116214Z",
+      "AbsoluteTopLeft": "-239.1071,88.4155",
+      "RelativeTopLeft": "0,66",
+      "HeaderContentSize": "140.81,22",
+      "HeaderMinSize": "254.75,22",
+      "NodeTotalSize": "254.75,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "_players",
+        "FullName": "private List<Player> _players",
+        "Symbols": [
+          "CardGame.Simulation._players"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "6",
+      "ParentId": "1",
+      "Name": "void generateDeck(int numberOfCards)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-01T18:22:11.3115984Z",
+      "AbsoluteTopLeft": "-239.1071,110.4155",
+      "RelativeTopLeft": "0,88",
+      "HeaderContentSize": "236.65,22",
+      "HeaderMinSize": "254.75,22",
+      "NodeTotalSize": "254.75,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "generateDeck",
+        "FullName": "private void generateDeck(int numberOfCards)",
+        "Symbols": [
+          "CardGame.Simulation.generateDeck(System.Int32)"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "8",
+      "ParentId": "1",
+      "Name": "void generatePlayers(int numberOfPlayers)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-01T18:22:12.5298335Z",
+      "AbsoluteTopLeft": "-239.1071,132.4155",
+      "RelativeTopLeft": "0,110",
+      "HeaderContentSize": "254.75,22",
+      "HeaderMinSize": "254.75,22",
+      "NodeTotalSize": "254.75,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "generatePlayers",
+        "FullName": "private void generatePlayers(int numberOfPlayers)",
+        "Symbols": [
+          "CardGame.Simulation.generatePlayers(System.Int32)"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "18",
+      "ParentId": "11",
+      "Name": "Deck _deck",
+      "Stereotype": "Field",
+      "CreatedAtUtc": "2023-09-01T18:27:27.0867669Z",
+      "AbsoluteTopLeft": "372.9575,111.4416",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "88.3133,22",
+      "HeaderMinSize": "163.7333,22",
+      "NodeTotalSize": "163.7333,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "_deck",
+        "FullName": "protected Deck _deck",
+        "Symbols": [
+          "CardGame.Game._deck"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Protected",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "19",
+      "ParentId": "11",
+      "Name": "void dealCardsToPlayers()",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-01T18:27:28.1712424Z",
+      "AbsoluteTopLeft": "372.9575,155.4416",
+      "RelativeTopLeft": "0,44",
+      "HeaderContentSize": "163.7333,22",
+      "HeaderMinSize": "163.7333,22",
+      "NodeTotalSize": "163.7333,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "dealCardsToPlayers",
+        "FullName": "private void dealCardsToPlayers()",
+        "Symbols": [
+          "CardGame.Game.dealCardsToPlayers()"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "20",
+      "ParentId": "11",
+      "Name": "List<Player> _players",
+      "Stereotype": "Field",
+      "CreatedAtUtc": "2023-09-01T18:27:29.0556458Z",
+      "AbsoluteTopLeft": "372.9575,133.4416",
+      "RelativeTopLeft": "0,22",
+      "HeaderContentSize": "140.81,22",
+      "HeaderMinSize": "163.7333,22",
+      "NodeTotalSize": "163.7333,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "_players",
+        "FullName": "protected List<Player> _players",
+        "Symbols": [
+          "CardGame.Game._players"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Protected",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "21",
+      "ParentId": "11",
+      "Name": "void printPlayers()",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-01T18:27:31.2836472Z",
+      "AbsoluteTopLeft": "372.9575,177.4416",
+      "RelativeTopLeft": "0,66",
+      "HeaderContentSize": "124.35,22",
+      "HeaderMinSize": "163.7333,22",
+      "NodeTotalSize": "163.7333,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "printPlayers",
+        "FullName": "private void printPlayers()",
+        "Symbols": [
+          "CardGame.Game.printPlayers()"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "22",
+      "ParentId": "11",
+      "Name": "void showTheWinner()",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-01T18:27:32.1287697Z",
+      "AbsoluteTopLeft": "372.9575,199.4416",
+      "RelativeTopLeft": "0,88",
+      "HeaderContentSize": "147.3633,22",
+      "HeaderMinSize": "163.7333,22",
+      "NodeTotalSize": "163.7333,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "showTheWinner",
+        "FullName": "public virtual void showTheWinner()",
+        "Symbols": [
+          "CardGame.Game.showTheWinner()"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "23",
+      "ParentId": "11",
+      "Name": "void start()",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-01T18:27:32.8254721Z",
+      "AbsoluteTopLeft": "372.9575,221.4416",
+      "RelativeTopLeft": "0,110",
+      "HeaderContentSize": "85.7833,22",
+      "HeaderMinSize": "163.7333,22",
+      "NodeTotalSize": "163.7333,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "start",
+        "FullName": "public void start()",
+        "Symbols": [
+          "CardGame.Game.start()"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "24",
+      "ParentId": "10",
+      "Name": "List<Card> _cards",
+      "Stereotype": "Field",
+      "CreatedAtUtc": "2023-09-01T18:27:35.4192307Z",
+      "AbsoluteTopLeft": "286.0216,407.6864",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "124.1633,22",
+      "HeaderMinSize": "326.2833,22",
+      "NodeTotalSize": "326.2833,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "_cards",
+        "FullName": "private List<Card> _cards",
+        "Symbols": [
+          "CardGame.Deck._cards"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "25",
+      "ParentId": "10",
+      "Name": "List<Card> cards",
+      "Stereotype": "Property",
+      "CreatedAtUtc": "2023-09-01T18:27:36.7805023Z",
+      "AbsoluteTopLeft": "286.0216,429.6864",
+      "RelativeTopLeft": "0,22",
+      "HeaderContentSize": "119.1833,22",
+      "HeaderMinSize": "326.2833,22",
+      "NodeTotalSize": "326.2833,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "cards",
+        "FullName": "public List<Card> cards { get; set; }",
+        "Symbols": [
+          "CardGame.Deck.cards"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "26",
+      "ParentId": "10",
+      "Name": "void addCardToDeck(Card card)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-01T18:27:37.6475248Z",
+      "AbsoluteTopLeft": "286.0216,451.6864",
+      "RelativeTopLeft": "0,44",
+      "HeaderContentSize": "196.59,22",
+      "HeaderMinSize": "326.2833,22",
+      "NodeTotalSize": "326.2833,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "addCardToDeck",
+        "FullName": "public void addCardToDeck(Card card)",
+        "Symbols": [
+          "CardGame.Deck.addCardToDeck(Card)"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "27",
+      "ParentId": "10",
+      "Name": "void dealCardsToPlayer(Player player, int numberOfCards)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-01T18:27:38.5083821Z",
+      "AbsoluteTopLeft": "286.0216,473.6864",
+      "RelativeTopLeft": "0,66",
+      "HeaderContentSize": "326.2833,22",
+      "HeaderMinSize": "326.2833,22",
+      "NodeTotalSize": "326.2833,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "dealCardsToPlayer",
+        "FullName": "public void dealCardsToPlayer(Player player, int numberOfCards)",
+        "Symbols": [
+          "CardGame.Deck.dealCardsToPlayer(CardGame.Player, System.Int32)"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "28",
+      "ParentId": "10",
+      "Name": "void printDeck()",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-01T18:27:39.6629657Z",
+      "AbsoluteTopLeft": "286.0216,495.6864",
+      "RelativeTopLeft": "0,88",
+      "HeaderContentSize": "113.4633,22",
+      "HeaderMinSize": "326.2833,22",
+      "NodeTotalSize": "326.2833,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "printDeck",
+        "FullName": "public void printDeck()",
+        "Symbols": [
+          "CardGame.Deck.printDeck()"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "29",
+      "ParentId": "13",
+      "Name": "string _color",
+      "Stereotype": "Field",
+      "CreatedAtUtc": "2023-09-01T18:27:45.6219524Z",
+      "AbsoluteTopLeft": "879.0317,63.6492",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "94.0467,22",
+      "HeaderMinSize": "179.1333,22",
+      "NodeTotalSize": "179.1333,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "_color",
+        "FullName": "private string _color",
+        "Symbols": [
+          "Card._color"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "31",
+      "ParentId": "13",
+      "Name": "int _value",
+      "Stereotype": "Field",
+      "CreatedAtUtc": "2023-09-01T18:27:49.3654193Z",
+      "AbsoluteTopLeft": "879.0317,85.6492",
+      "RelativeTopLeft": "0,22",
+      "HeaderContentSize": "78.8567,22",
+      "HeaderMinSize": "179.1333,22",
+      "NodeTotalSize": "179.1333,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "_value",
+        "FullName": "private int _value",
+        "Symbols": [
+          "Card._value"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "32",
+      "ParentId": "13",
+      "Name": "string color",
+      "Stereotype": "Property",
+      "CreatedAtUtc": "2023-09-01T18:27:50.2059849Z",
+      "AbsoluteTopLeft": "879.0317,107.6492",
+      "RelativeTopLeft": "0,44",
+      "HeaderContentSize": "89.0667,22",
+      "HeaderMinSize": "179.1333,22",
+      "NodeTotalSize": "179.1333,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "color",
+        "FullName": "public string color { get; set; }",
+        "Symbols": [
+          "Card.color"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "33",
+      "ParentId": "13",
+      "Name": "int value",
+      "Stereotype": "Property",
+      "CreatedAtUtc": "2023-09-01T18:27:51.0958921Z",
+      "AbsoluteTopLeft": "879.0317,129.6492",
+      "RelativeTopLeft": "0,66",
+      "HeaderContentSize": "73.8767,22",
+      "HeaderMinSize": "179.1333,22",
+      "NodeTotalSize": "179.1333,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "value",
+        "FullName": "public int value { get; set; }",
+        "Symbols": [
+          "Card.value"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "34",
+      "ParentId": "13",
+      "Name": "string getAllCardProperties()",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-01T18:27:52.1175891Z",
+      "AbsoluteTopLeft": "879.0317,151.6492",
+      "RelativeTopLeft": "0,88",
+      "HeaderContentSize": "179.1333,22",
+      "HeaderMinSize": "179.1333,22",
+      "NodeTotalSize": "179.1333,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "getAllCardProperties",
+        "FullName": "public string getAllCardProperties()",
+        "Symbols": [
+          "Card.getAllCardProperties()"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "35",
+      "ParentId": "15",
+      "Name": "void showTheWinner()",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-01T18:27:54.7004383Z",
+      "AbsoluteTopLeft": "634.8474,163.3213",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "147.3633,22",
+      "HeaderMinSize": "147.3633,22",
+      "NodeTotalSize": "147.3633,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "showTheWinner",
+        "FullName": "public override void showTheWinner()",
+        "Symbols": [
+          "CardGame.GameLowestVariant.showTheWinner()"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "36",
+      "ParentId": "1",
+      "Name": "Deck _deck",
+      "Stereotype": "Field",
+      "CreatedAtUtc": "2023-09-01T18:27:58.5975035Z",
+      "AbsoluteTopLeft": "-239.1071,22.4155",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "88.3133,22",
+      "HeaderMinSize": "254.75,22",
+      "NodeTotalSize": "254.75,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "_deck",
+        "FullName": "private Deck _deck",
+        "Symbols": [
+          "CardGame.Simulation._deck"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "37",
+      "ParentId": "1",
+      "Name": "Game _game",
+      "Stereotype": "Field",
+      "CreatedAtUtc": "2023-09-01T18:28:02.8587651Z",
+      "AbsoluteTopLeft": "-239.1071,44.4155",
+      "RelativeTopLeft": "0,22",
+      "HeaderContentSize": "98.0067,22",
+      "HeaderMinSize": "254.75,22",
+      "NodeTotalSize": "254.75,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "_game",
+        "FullName": "private Game _game",
+        "Symbols": [
+          "CardGame.Simulation._game"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "38",
+      "ParentId": "1",
+      "Name": "Game _minVariantGame",
+      "Stereotype": "Field",
+      "CreatedAtUtc": "2023-09-01T18:28:03.6255332Z",
+      "AbsoluteTopLeft": "-239.1071,66.4155",
+      "RelativeTopLeft": "0,44",
+      "HeaderContentSize": "155.93,22",
+      "HeaderMinSize": "254.75,22",
+      "NodeTotalSize": "254.75,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "_minVariantGame",
+        "FullName": "private Game _minVariantGame",
+        "Symbols": [
+          "CardGame.Simulation._minVariantGame"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "39",
+      "ParentId": "1",
+      "Name": "void printDeck()",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-01T18:28:04.4719327Z",
+      "AbsoluteTopLeft": "-239.1071,154.4155",
+      "RelativeTopLeft": "0,132",
+      "HeaderContentSize": "113.4633,22",
+      "HeaderMinSize": "254.75,22",
+      "NodeTotalSize": "254.75,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "printDeck",
+        "FullName": "public void printDeck()",
+        "Symbols": [
+          "CardGame.Simulation.printDeck()"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "40",
+      "ParentId": "1",
+      "Name": "void start()",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-01T18:28:05.2882468Z",
+      "AbsoluteTopLeft": "-239.1071,176.4155",
+      "RelativeTopLeft": "0,154",
+      "HeaderContentSize": "85.7833,22",
+      "HeaderMinSize": "254.75,22",
+      "NodeTotalSize": "254.75,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "start",
+        "FullName": "public void start()",
+        "Symbols": [
+          "CardGame.Simulation.start()"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "41",
+      "ParentId": "12",
+      "Name": "List<Card> _cards",
+      "Stereotype": "Field",
+      "CreatedAtUtc": "2023-09-01T18:28:10.3922183Z",
+      "AbsoluteTopLeft": "366.2,-150.6869",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "124.1633,22",
+      "HeaderMinSize": "158.2467,22",
+      "NodeTotalSize": "158.2467,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "_cards",
+        "FullName": "protected List<Card> _cards",
+        "Symbols": [
+          "CardGame.Player._cards"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Protected",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "42",
+      "ParentId": "12",
+      "Name": "string _name",
+      "Stereotype": "Field",
+      "CreatedAtUtc": "2023-09-01T18:28:11.5237218Z",
+      "AbsoluteTopLeft": "366.2,-128.6869",
+      "RelativeTopLeft": "0,22",
+      "HeaderContentSize": "96.8733,22",
+      "HeaderMinSize": "158.2467,22",
+      "NodeTotalSize": "158.2467,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "_name",
+        "FullName": "protected string _name",
+        "Symbols": [
+          "CardGame.Player._name"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Protected",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "43",
+      "ParentId": "12",
+      "Name": "List<Card> cards",
+      "Stereotype": "Property",
+      "CreatedAtUtc": "2023-09-01T18:28:12.3744524Z",
+      "AbsoluteTopLeft": "366.2,-106.6869",
+      "RelativeTopLeft": "0,44",
+      "HeaderContentSize": "119.1833,22",
+      "HeaderMinSize": "158.2467,22",
+      "NodeTotalSize": "158.2467,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "cards",
+        "FullName": "public List<Card> cards { get; set; }",
+        "Symbols": [
+          "CardGame.Player.cards"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "44",
+      "ParentId": "12",
+      "Name": "string name",
+      "Stereotype": "Property",
+      "CreatedAtUtc": "2023-09-01T18:28:13.1087959Z",
+      "AbsoluteTopLeft": "366.2,-84.6869",
+      "RelativeTopLeft": "0,66",
+      "HeaderContentSize": "91.8933,22",
+      "HeaderMinSize": "158.2467,22",
+      "NodeTotalSize": "158.2467,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "name",
+        "FullName": "public string name { get; set; }",
+        "Symbols": [
+          "CardGame.Player.name"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "45",
+      "ParentId": "12",
+      "Name": "void addCard(Card card)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-01T18:28:13.8019274Z",
+      "AbsoluteTopLeft": "366.2,-62.6869",
+      "RelativeTopLeft": "0,88",
+      "HeaderContentSize": "158.2467,22",
+      "HeaderMinSize": "158.2467,22",
+      "NodeTotalSize": "158.2467,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "addCard",
+        "FullName": "public virtual void addCard(Card card)",
+        "Symbols": [
+          "CardGame.Player.addCard(Card)"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "46",
+      "ParentId": "12",
+      "Name": "int getHandValue()",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-01T18:28:14.6317368Z",
+      "AbsoluteTopLeft": "366.2,-40.6869",
+      "RelativeTopLeft": "0,110",
+      "HeaderContentSize": "127.8367,22",
+      "HeaderMinSize": "158.2467,22",
+      "NodeTotalSize": "158.2467,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "getHandValue",
+        "FullName": "public int getHandValue()",
+        "Symbols": [
+          "CardGame.Player.getHandValue()"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "47",
+      "ParentId": "12",
+      "Name": "void printHand()",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-01T18:28:15.5473830Z",
+      "AbsoluteTopLeft": "366.2,-18.6869",
+      "RelativeTopLeft": "0,132",
+      "HeaderContentSize": "115.75,22",
+      "HeaderMinSize": "158.2467,22",
+      "NodeTotalSize": "158.2467,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "printHand",
+        "FullName": "public void printHand()",
+        "Symbols": [
+          "CardGame.Player.printHand()"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "49",
+      "ParentId": "14",
+      "Name": "void addCard(Card card)",
+      "Stereotype": "Method",
+      "CreatedAtUtc": "2023-09-01T18:28:56.5880554Z",
+      "AbsoluteTopLeft": "617.2467,-160.2762",
+      "RelativeTopLeft": "0,0",
+      "HeaderContentSize": "158.2467,22",
+      "HeaderMinSize": "158.2467,22",
+      "NodeTotalSize": "158.2467,22",
+      "Payload": {
+        "Discriminator": "RoslynMember",
+        "SymbolName": "addCard",
+        "FullName": "public override void addCard(Card card)",
+        "Symbols": [
+          "CardGame.WeakPlayer.addCard(Card)"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    }
+  ],
+  "Connectors": [
+    {
+      "Id": "1",
+      "SourceNodeId": "1",
+      "TargetNodeId": "10",
+      "Stereotype": "Association",
+      "Route": [
+        "16.6429,165.5415",
+        "319.3967,355.6864"
+      ],
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "CardGame.Simulation|Association|CardGame.Deck",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_deck",
+              "Tooltip": "private Deck _deck",
+              "CanBeHidden": true
+            },
+            "Symbol": "CardGame.Simulation._deck"
+          }
+        ],
+        "TargetLabelCenter": "298.2259,342.39"
+      }
+    },
+    {
+      "Id": "2",
+      "SourceNodeId": "1",
+      "TargetNodeId": "11",
+      "Stereotype": "Association",
+      "Route": [
+        "16.6429,100.1028",
+        "371.9575,142.1381"
+      ],
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "CardGame.Simulation|Association|CardGame.Game",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_game",
+              "Tooltip": "private Game _game",
+              "CanBeHidden": true
+            },
+            "Symbol": "CardGame.Simulation._game"
+          },
+          {
+            "Label": {
+              "Text2": "_minVariantGame",
+              "Tooltip": "private Game _minVariantGame"
+            },
+            "Symbol": "CardGame.Simulation._minVariantGame"
+          }
+        ],
+        "TargetLabelCenter": "347.1306,139.201"
+      }
+    },
+    {
+      "Id": "3",
+      "SourceNodeId": "11",
+      "TargetNodeId": "10",
+      "Stereotype": "Association",
+      "Route": [
+        "452.9884,244.4416",
+        "450.7807,355.6864"
+      ],
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "CardGame.Game|Association|CardGame.Deck",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_deck",
+              "Tooltip": "protected Deck _deck",
+              "CanBeHidden": true
+            },
+            "Symbol": "CardGame.Game._deck"
+          }
+        ],
+        "TargetLabelCenter": "451.2767,330.6913"
+      }
+    },
+    {
+      "Id": "4",
+      "SourceNodeId": "1",
+      "TargetNodeId": "12",
+      "Stereotype": "Association",
+      "Route": [
+        "16.6429,42.4886",
+        "365.2,-72.7068"
+      ],
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "CardGame.Simulation|Association|CardGame.Player",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text1": "*",
+              "Text2": "_players",
+              "Tooltip": "private List<Player> _players"
+            },
+            "Symbol": "CardGame.Simulation._players"
+          }
+        ],
+        "TargetLabelCenter": "341.4628,-64.8618"
+      }
+    },
+    {
+      "Id": "5",
+      "SourceNodeId": "11",
+      "TargetNodeId": "12",
+      "Stereotype": "Association",
+      "Route": [
+        "451.3247,59.4416",
+        "449.239,4.3131"
+      ],
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "CardGame.Game|Association|CardGame.Player",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text1": "*",
+              "Text2": "_players",
+              "Tooltip": "protected List<Player> _players"
+            },
+            "Symbol": "CardGame.Game._players"
+          }
+        ],
+        "TargetLabelCenter": "450.1841,29.2952"
+      }
+    },
+    {
+      "Id": "6",
+      "SourceNodeId": "10",
+      "TargetNodeId": "13",
+      "Stereotype": "Association",
+      "Route": [
+        "572.2138,355.6864",
+        "878.0317,153.1342"
+      ],
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "CardGame.Deck|Association|Card",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text1": "*",
+              "Text2": "_cards",
+              "Tooltip": "private List<Card> _cards"
+            },
+            "Symbol": "CardGame.Deck._cards"
+          },
+          {
+            "Label": {
+              "Text1": "*",
+              "Text2": "cards",
+              "Tooltip": "public List<Card> cards { get; set; }"
+            },
+            "Symbol": "CardGame.Deck.cards"
+          }
+        ],
+        "TargetLabelCenter": "857.1888,166.939"
+      }
+    },
+    {
+      "Id": "7",
+      "SourceNodeId": "12",
+      "TargetNodeId": "13",
+      "Stereotype": "Association",
+      "Route": [
+        "525.4467,-69.7366",
+        "878.0317,59.8603"
+      ],
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "CardGame.Player|Association|Card",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text1": "*",
+              "Text2": "_cards",
+              "Tooltip": "protected List<Card> _cards"
+            },
+            "Symbol": "CardGame.Player._cards"
+          },
+          {
+            "Label": {
+              "Text1": "*",
+              "Text2": "cards",
+              "Tooltip": "public List<Card> cards { get; set; }"
+            },
+            "Symbol": "CardGame.Player.cards"
+          }
+        ],
+        "TargetLabelCenter": "854.5666,51.2354"
+      }
+    },
+    {
+      "Id": "8",
+      "SourceNodeId": "14",
+      "TargetNodeId": "12",
+      "Stereotype": "Inheritance",
+      "Route": [
+        "616.2467,-150.6513",
+        "525.4467,-123.3118"
+      ],
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "CardGame.WeakPlayer|Inheritance|CardGame.Player"
+      }
+    },
+    {
+      "Id": "9",
+      "SourceNodeId": "15",
+      "TargetNodeId": "11",
+      "Stereotype": "Inheritance",
+      "Route": [
+        "633.8474,149.7398",
+        "537.6908,150.9224"
+      ],
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "CardGame.GameLowestVariant|Inheritance|CardGame.Game"
+      }
+    }
+  ]
+}

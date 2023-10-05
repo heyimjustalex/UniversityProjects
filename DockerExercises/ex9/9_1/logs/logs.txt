@@ -1,0 +1,6 @@
+TIMESTAMP:2022-07-15 11:45:35.964332 | USERNAME:alex | MESSAGE: -> user just logged |
+TIMESTAMP:2022-07-15 11:45:52.228401 | USERNAME:alex | MESSAGE: -> saved file on the server |
+TIMESTAMP:2022-07-16 13:42:30.736738 | USERNAME:alex | MESSAGE: -> user just logged |
+TIMESTAMP:2022-07-16 13:42:37.021788 | USERNAME:alex | MESSAGE: -> saved file on the server |
+TIMESTAMP:2022-07-16 13:59:07.905590 | USERNAME:alex | MESSAGE: -> user just logged |
+MODIFIED__TIMESTAMP:2022-07-16 13:59:29.561779 | USERNAME:test_ex9 | MESSAGE: -> user just logged |

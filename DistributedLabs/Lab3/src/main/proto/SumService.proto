@@ -1,0 +1,23 @@
+syntax = "proto3";
+package com.example.grpc;
+
+message SimpleSumRequest{
+  repeated int32 numbers = 1;
+}
+
+message RepeatedSumRequest{
+  int32 n=1;
+  int32 t=2;
+}
+
+message SumResponse{
+  int32 sum = 1;
+}
+
+
+service SumService{
+
+  rpc simpleSum(SimpleSumRequest) returns (SumResponse);
+  rpc repeatedSum(RepeatedSumRequest) returns (stream SumResponse);
+  rpc streamSum(stream SimpleSumRequest) returns (SumResponse);
+}

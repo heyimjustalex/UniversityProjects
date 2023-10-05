@@ -1,0 +1,121 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="92586aad-ae57-407f-aae7-2f0c347fe34f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DW Fire Police Vsmall</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>FACT Crew On Intervention</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="daf3bf48-f789-4f0e-bba8-15875583de2f">
+          <ID>FACT Crew On Intervention</ID>
+          <Name>FACT Crew On Intervention</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="61939348-fa0f-457b-8328-466f8d716bb6">
+            <DataSourceViewID>DW Fire Police Vsmall</DataSourceViewID>
+            <TableID>dbo_FACT_crew_on_intervention</TableID>
+          </Source>
+          <StorageMode>Rolap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="447f4276-eff5-49c7-987e-9d19b78357fe">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>PT0S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Enabled>true</Enabled>
+            <AggregationStorage>MolapOnly</AggregationStorage>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="25fdbb58-709f-4ab3-9427-ae23ec9f348c">
+              <NotificationTechnique>Server</NotificationTechnique>
+            </Source>
+          </ProactiveCaching>
+          <EstimatedRows>36193</EstimatedRows>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>FACT Vehicle Inspection</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="4d4e8bdb-9567-4677-8933-c1cf278e1a88">
+          <ID>FACT Vehicle Inspection</ID>
+          <Name>FACT Vehicle Inspection</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="f47434b4-537f-4bc1-aafa-82ac4eba0529">
+            <DataSourceViewID>DW Fire Police Vsmall</DataSourceViewID>
+            <TableID>dbo_FACT_vehicle_inspection</TableID>
+          </Source>
+          <StorageMode>Rolap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>FACT Worker In Action</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="d1454cde-08a0-40fa-9ff0-6900085ade90">
+          <ID>FACT Worker In Action</ID>
+          <Name>FACT Worker In Action</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0cb0eb6d-f9db-4586-99bc-2fdcb767b3ab">
+            <DataSourceViewID>DW Fire Police Vsmall</DataSourceViewID>
+            <TableID>dbo_FACT_Worker_in_action</TableID>
+          </Source>
+          <StorageMode>Rolap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="f49f0923-e8e3-46bc-bb85-8a22a24edf07">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>PT0S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Enabled>true</Enabled>
+            <AggregationStorage>MolapOnly</AggregationStorage>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="bd8c016c-ff2e-4af7-97d1-370fa7d20957">
+              <NotificationTechnique>Server</NotificationTechnique>
+            </Source>
+          </ProactiveCaching>
+          <EstimatedRows>144671</EstimatedRows>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Vehicle</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="e9f76cf4-651f-4763-8c21-fc5e8aaf4e52">
+          <ID>Vehicle</ID>
+          <Name>Vehicle</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="25ed7ac5-6bd5-44a7-8159-128c366ceaa2">
+            <DataSourceViewID>DW Fire Police Vsmall</DataSourceViewID>
+            <TableID>dbo_Vehicle</TableID>
+          </Source>
+          <StorageMode>Rolap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="fc61f71e-dc51-4ba7-8972-155d9e741f0a">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>PT0S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Enabled>true</Enabled>
+            <AggregationStorage>MolapOnly</AggregationStorage>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="059188d9-9ade-4842-8b35-a907958dc060">
+              <NotificationTechnique>Server</NotificationTechnique>
+            </Source>
+          </ProactiveCaching>
+          <EstimatedRows>969</EstimatedRows>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
