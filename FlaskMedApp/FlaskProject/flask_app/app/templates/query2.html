@@ -1,0 +1,26 @@
+<div>
+    SQLalchemy query rows:
+    {% for row in rows %}
+    {{row}}
+    {% endfor %}
+    <br />
+    SQLalchemy orm query elapsed time:
+    {{elapsed_time_orm_query}} <br />
+    <hr>
+
+    Raw query rows:
+    {% for row in raw_query_rows %}
+    {{row}}
+    {% endfor %}
+    <br />
+    Raw query elapsed time:
+    {{elapsed_time_raw_query}} <br />
+
+    <hr />
+
+    Raw time / orm time: {{elapsed_time_raw_query/elapsed_time_orm_query}}
+    <hr />
+
+    Raw time - orm time: {{elapsed_time_raw_query - elapsed_time_orm_query}}
+    <br />
+</div>

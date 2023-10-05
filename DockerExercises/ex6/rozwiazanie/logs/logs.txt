@@ -1,0 +1,2 @@
+TIMESTAMP:2022-07-15 11:45:35.964332 | USERNAME:alex | MESSAGE: -> user just logged |
+TIMESTAMP:2022-07-15 11:45:52.228401 | USERNAME:alex | MESSAGE: -> saved file on the server |

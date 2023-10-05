@@ -1,0 +1,36 @@
+{% block content %}
+<form method="post">
+
+    <label for="pesel">Pesel num</label>
+    <input type="text" name="pesel"> <br />
+
+    <label for="name">Name</label>
+    <input type="text" name="name"> <br />
+
+    <label for="surname">Surname</label>
+    <input type="text" name="surname"><br />
+
+    <label for="email">Email</label>
+    <input type="email" name="email"><br />
+
+    <label for="phone_num">Phone Number</label>
+    <input type="text" name="phone_num"><br />
+
+    <label for="born">Born date</label>
+    <input type="date" name="born"><br />
+
+    <label for="address">Adres</label>
+    <input type="text" name="address"><br />
+
+    <label for="disability">Disablity</label>
+    <input type="text" name="disability"><br />
+
+    <label for="medical_specialization">Medical Specialization</label>
+    <input type="text" name="medical_specialization"><br />
+
+    <button type="submit">Submit</button>
+
+
+</form>
+<a href="/doctors">Back to doctors</a>
+{% endblock %}

@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  meeting_description: MyString
+  meeting_time: 2022-11-26 16:23:09
+  patient: one
+  doctor: one
+
+two:
+  meeting_description: MyString
+  meeting_time: 2022-11-26 16:23:09
+  patient: two
+  doctor: two

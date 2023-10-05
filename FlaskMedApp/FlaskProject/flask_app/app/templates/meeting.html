@@ -1,0 +1,48 @@
+{% block content %}
+
+<h1> Meeting ID: {{ meeting.id}} </h1>
+<h2> Meeting date:{{ meeting.meeting_time }}</h2>
+
+<div>
+    <div>
+        <b>Meeting Description: <br />
+            <p> {{meeting.meeting_description}}</p>
+        </b><br />
+
+        <a href="{{ url_for('blueprint.patient', id=patient.id)}}">
+            PATIENT INFO
+            <hr><br />
+            <b>Name: {{patient.name }} </b><br />
+            <b>Surname: {{patient.surname }} </b><br />
+            <b>Disablity: {{patient.disability}} </b><br />
+            <b>Medical offer: {{patient.medical_offer }} </b><br />
+        </a>
+        </b><br />
+
+
+        <a href="{{ url_for('blueprint.doctor', id=doctor.id)}}">
+            DOCTOR INFO
+            <hr><br />
+            <b>Name: {{doctor.name }} </b><br />
+            <b>Surname: {{doctor.surname }} </b><br />
+            <b>Medical specialization: {{doctor.medical_specialization}} </b><br />
+
+        </a>
+        </b><br />
+
+        <h2>Interviews during this meeting:</h2>
+        <hr>
+
+        {% for interview in interviews %}
+        Interview id: {{interview.id}} <br />
+        Hygiene: {{interview.hygiene}} <br />
+        Treatment story: {{interview.treatment_story}} <br />
+        Interview description: {{interview.interview_description}} <br />
+        <hr>
+        {% endfor %}
+
+    </div>
+    <hr>
+    <a href="/meetings">Back to meetings</a>
+</div>
+{% endblock %}

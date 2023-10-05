@@ -1,0 +1,27 @@
+<div>
+
+    SQLalchemy orm query update elapsed time:
+    {{elapsed_time_orm_query}} <br />
+    <hr>
+    <br />
+    Raw query update elapsed time:
+    {{elapsed_time_raw_query}} <br />
+
+    <hr />
+    <br />
+    Raw time / orm time: {{elapsed_time_raw_query/elapsed_time_orm_query}}
+    <br />
+    <hr />
+    <br />
+    Raw time - orm time: {{elapsed_time_raw_query - elapsed_time_orm_query}}
+    <br />
+    <hr />
+    SQLalchemy rows (patientsID that have been been updated to senior): <br />
+    {% for row in rows %}
+    {{row}} <br />
+    {% endfor %}
+
+
+
+
+</div>

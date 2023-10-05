@@ -1,0 +1,47 @@
+{% block content %}
+
+<div>
+    {% for doctor in doctors.items %}
+    <div>
+        <a href="{{ url_for('blueprint.doctor', id=doctor.id)}}">
+            <b>{{ doctor.id }}</b> | {{ doctor.name }} | {{ doctor.surname }}
+        </a> |
+        <a href="{{ url_for('blueprint.doctor_edit', id=doctor.id)}}">
+            <b>Edit {{ doctor.id }} </b>
+        </a> |
+        <a href="{{ url_for('blueprint.doctor_delete', id=doctor.id)}}">
+            <b>Delete {{ doctor.id }} </b>
+        </a>
+
+    </div>
+    {% endfor %}
+    <hr>
+
+    <div>
+        <a href="{{ url_for('blueprint.doctors', page=doctors.prev_num) }}" class=" 
+        {% if doctors.page == 1 %}disabled{% endif %}"> &laquo;</a>
+
+        </a>
+        {% for page_num in doctors.iter_pages(left_edge=1, right_edge=1, left_current=1, right_current=2) %}
+
+        <a href="{{ url_for('blueprint.doctors', page=page_num) }}">
+            {{ page_num }}
+        </a>
+
+
+        {% endfor %} <a href="{{ url_for('blueprint.doctors', page=doctors.next_num) }}"
+            class="{% if doctors.page == doctors.pages %}disabled{% endif %}">
+
+            &raquo;
+        </a>
+        <p>
+            Showing page {{ doctors.page }} of {{ doctors.pages }}
+        </p>
+    </div>
+
+    <hr>
+
+    <a href="/doctors/add">Add new doctor</a> <br />
+    <a href="/">Back to /</a>
+</div>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% block content %}
+
+<h1> Doctor ID: {{ doctor.id}} </h1>
+<h2> Doctor E-mail:{{ doctor.email }}</h2>
+
+<div>
+    <div>
+        <b>Name: {{doctor.name }}</b><br />
+        <b>Surname: {{doctor.surname }} </b><br />
+        <b>Address: {{doctor.address}} </b><br />
+        <b>Born: {{doctor.born.year }}{{"-"}}{{doctor.born.month}}{{"-"}}{{doctor.born.day}}
+        </b><br />
+        <b>Disability: {{doctor.disability}} </b><br />
+        <b>Phone: {{doctor.phone_num}} </b><br />
+        <b>Medical specialization: {{doctor.medical_specialization}} </b><br />
+
+    </div>
+    <hr>
+    <a href="/doctors">Back to doctors</a>
+</div>
+{% endblock %}

@@ -1,0 +1,52 @@
+<div>
+    {% for meeting in meetings.items %}
+    <div>
+        <hr>
+        |<a href="{{ url_for('blueprint.meeting', id=meeting.id)}}">
+            <b>{{ meeting.id }}</b> | Visit date: {{ meeting.meeting_time}}
+        </a>| <br />
+        |<a href="{{ url_for('blueprint.patient', id=meeting.id_patient)}}">
+            <b> Patient name/surname -> {{ patients[meeting.id_patient].name}}/{{patients[meeting.id_patient].surname }}
+            </b>
+        </a> | <br />
+        |<a href="{{ url_for('blueprint.doctor', id=meeting.id_doctor)}}">
+            <b>Doctor name/surname -> {{ doctors[meeting.id_doctor].name }}/{{ doctors[meeting.id_doctor].surname }}
+            </b>
+        </a>| <br />
+        <hr>
+
+        <a href="{{ url_for('blueprint.meeting', id=meeting.id)}}">
+            <h2>ENTER MEETING <b>{{ meeting.id }}</b></h2>
+        </a>
+        <hr> <br />
+    </div>
+    {% endfor %}
+    <hr>
+
+
+    <div>
+        <a href="{{ url_for('blueprint.meetings', page=meetings.prev_num) }}" class=" 
+        {% if meetings.page == 1 %}disabled{% endif %}"> &laquo;</a>
+
+        </a>
+        {% for page_num in meetings.iter_pages(left_edge=0, right_edge=0, left_current=4, right_current=4) %}
+
+        <a href="{{ url_for('blueprint.meetings', page=page_num) }}">
+            {{ page_num }}
+        </a>
+
+
+        {% endfor %} <a href="{{ url_for('blueprint.meetings', page=meetings.next_num) }}"
+            class="{% if meetings.page == meetings.pages %}disabled{% endif %}">
+
+            &raquo;
+        </a>
+        <p>
+            Showing page {{ meetings.page }} of {{ meetings.pages }}
+        </p>
+    </div>
+
+    <hr>
+    <a href="/meetings/add">Add new meeting</a><br />
+    <a href="/">Back to /</a>
+</div>
