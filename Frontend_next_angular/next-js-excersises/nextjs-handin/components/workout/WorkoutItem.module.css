@@ -1,0 +1,22 @@
+
+.container {
+    border: 1px solid #333; 
+    padding: 15px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .container:hover {
+    background-color: #222; 
+  }
+  
+  h2 {
+    color: #fff; /
+  }
+  
+  p {
+    margin: 5px 0;
+    color: #eee; 
+  }
+  

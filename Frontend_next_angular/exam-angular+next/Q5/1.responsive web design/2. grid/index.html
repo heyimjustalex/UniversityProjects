@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Example</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Arial", sans-serif;
+        background-color: #ecf0f1;
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        height: 100vh;
+      }
+
+      .grid-item {
+        background-color: #3498db;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        border: 2px solid #2c3e50;
+      }
+
+      .grid-item:nth-child(2n) {
+        background-color: #e74c3c;
+        height: 100px;
+      }
+
+      .grid-item:nth-child(3n) {
+        background-color: #2ecc71;
+        height: 150px;
+      }
+
+      .grid-item:nth-child(4n) {
+        background-color: #f39c12;
+        height: 120px;
+      }
+
+      .grid-item.large {
+        grid-column: span 2;
+        grid-row: span 2;
+      }
+
+      .grid-item.tall {
+        grid-row: span 3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-item">1</div>
+      <div class="grid-item large">2 (Large)</div>
+      <div class="grid-item tall">3 (Tall)</div>
+      <div class="grid-item">4</div>
+      <div class="grid-item">5</div>
+      <div class="grid-item large">6 (Large)</div>
+      <div class="grid-item">7</div>
+      <div class="grid-item tall">8 (Tall)</div>
+    </div>
+  </body>
+</html>

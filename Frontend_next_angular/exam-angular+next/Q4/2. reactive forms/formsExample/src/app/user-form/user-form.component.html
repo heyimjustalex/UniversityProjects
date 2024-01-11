@@ -1,0 +1,28 @@
+<!-- user-form.component.html -->
+<form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" formControlName="name" required />
+  </div>
+
+  <div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" formControlName="email" required />
+  </div>
+
+  <div>
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" formControlName="phone" required />
+    <div
+      *ngIf="
+        formControls.phone.errors &&
+        formControls.phone.errors.invalidPhoneNumber &&
+        formControls.phone.touched
+      "
+    >
+      Please enter a valid phone number (numeric characters only).
+    </div>
+  </div>
+
+  <button type="submit" [disabled]="userForm.invalid">Submit</button>
+</form>

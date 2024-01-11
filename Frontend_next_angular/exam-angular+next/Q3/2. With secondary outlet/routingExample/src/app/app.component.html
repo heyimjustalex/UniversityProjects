@@ -1,0 +1,7 @@
+<nav>
+  <a routerLink="/">Home</a> <br />
+  <a routerLink="/about">About</a><br />
+  <a [routerLink]="[{ outlets: { secondary: 'secondary' } }]">Secondary</a>
+</nav>
+<router-outlet></router-outlet>
+<router-outlet name="secondary"></router-outlet>

@@ -1,0 +1,12 @@
+.errorContainer {
+  border: 1px solid #ff0000;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.errorParagraph {
+  color: #ff0000;
+  font-weight: bold;
+}
